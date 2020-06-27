@@ -11,22 +11,20 @@ matrix:
   include:
     - env: TOX_ENV=py27-beets_master
       python: 2.7
-    - env: TOX_ENV=py27-beets_release
+    - env: TOX_ENV=py27-beets_1.4.7
       python: 2.7
 
     - env: TOX_ENV=py36-beets_master
       python: 3.6
-    - env: TOX_ENV=py36-beets_release
+    - env: TOX_ENV=py36-beets_1.4.7
       python: 3.6
 
     - env: TOX_ENV=py38-beets_master COVERAGE=1
       python: 3.8
-    - env: TOX_ENV=py38-beets_release
+    - env: TOX_ENV=py38-beets_1.4.7
       python: 3.8
 
     - env: TOX_ENV=py39-beets_master
-      python: 3.9-dev
-    - env: TOX_ENV=py39-beets_release
       python: 3.9-dev
 
     - env: TOX_ENV=py38-flake8
